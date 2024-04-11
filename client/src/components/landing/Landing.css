@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@400;500&display=swap");
+.landing {
+  max-width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+.landing .my-nav {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  background-color: #fff;
+}
+.my-nav .mylogo {
+  width: 250px;
+  height: auto;
+}
+.my-nav .buttonpart {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.buttonpart h5 {
+  border-left: 1px solid rgb(68, 66, 68);
+  padding: 15px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 16px;
+}
+.buttonpart .sign-up {
+  background-color: crimson;
+  padding: 5px;
+  border-radius: 20px;
+  color: #fff;
+}
+.buttonpart a {
+  text-decoration: none;
+  color: black;
+}
+.buttonpart .sign-up a {
+  color: #fff;
+}
+
+.landing .landing-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 5px;
+}
+.landing-icons .icon-part {
+  padding: 5px;
+  text-align: center;
+  margin: 5px;
+}
+.icon-part h5 {
+  color: crimson;
+}
+.landing .landing-intro {
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.landing-intro img {
+  max-width: 520px;
+  height: auto;
+}
+.landing-intro h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+.landing-intro span {
+  color: crimson;
+  font-weight: bold;
+}
+.landing .landing-dev {
+  text-align: center;
+  margin-top: 170px;
+}
+.landing-dev h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 5px;
+}
+.landing-dev span {
+  color: crimson;
+}
+.landing-dev img {
+  width: 95%;
+}
+.landing-dev h2 {
+  margin: 15px;
+}
+.landing-dev #gif {
+  width: 500px;
+}
+.landing-dev #separation {
+  margin-top: 100px;
+}
